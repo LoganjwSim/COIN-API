@@ -26,6 +26,9 @@ const App = () => {
 
   return (
     <div className="min-h-screen flex flex-col justify-center items-center ">
+      <div className="mb-20">
+        <img className="w-20" src="./images/btc.png" alt="btc" />
+      </div>
       {coinPrices ? (
         <ul className="w-96">
           <Slider
